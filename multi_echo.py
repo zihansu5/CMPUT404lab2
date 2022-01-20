@@ -1,7 +1,7 @@
 import socket, time
 from multiprocessing import Process
 
-HOST = ""
+HOST = "localhost"
 PORT = 8001
 BUFFER_SIZE = 1024
 
