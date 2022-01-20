@@ -17,6 +17,8 @@ def main():
         s.bind((HOST, PORT))
         #set to listening mode
         s.listen(2)
+
+        print("Listening...")
         
         #continuously listen for connections
         while True:
